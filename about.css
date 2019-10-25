@@ -1,0 +1,166 @@
+h1{
+    font-size: 30px;
+    color: #4682B4;
+    font-family: monospace;
+    padding-left: 3px;
+    text-align: left;
+    padding-top: 20px; 
+    width: 400px;
+}
+
+*{
+    margin:0; 
+    padding:0;
+}
+
+h2{
+    float: right;
+    color: #4682B4;
+    font-size: 20px;
+    font-family: monospace;
+    text-align: right;
+    }
+
+h3{
+    color: #4682B4;
+    font-size: 23px;
+}
+
+p{
+    margin-left: 28px;
+    font-family: cursive;
+}
+
+header{
+    background-color: white;
+    padding: 1px 10px;
+    height: 70px;
+    width: auto;
+}
+
+select{
+    margin-top: auto;
+    margin-left: 400px;
+    width: 150px;
+}
+nav {
+    margin:auto;
+    text-align: center;
+    width: 100%;
+} 
+nav ul ul {
+    display: none;
+}
+nav ul li:hover{
+    display: block;
+    width: 150px;
+}
+nav ul {
+    background: #4682B4;
+    padding: 0 20px;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+    width: 100%;
+}
+
+nav ul:after {
+    content: ""; 
+    clear:both; 
+    display: block;
+}
+
+nav ul li{
+    float:left;
+}
+
+nav ul li:hover{
+    background:#666;
+}
+
+nav ul li:hover a{
+    color:#fff;
+}
+
+nav ul li a{
+    display: block;
+    padding: 25px;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul ul{
+    background: #4682B4;
+    border-radius: 0px;
+    padding: 0;
+    position: absolute;
+    top:100%;
+}
+
+nav ul ul li{
+    float:none;
+    border-top: 1px soild #4682B4;
+    border-bottom: 1px solid #4682B4;
+    position: relative;
+}
+
+nav ul ul li a{
+    padding: 15px 40px;
+    color: #fff;
+}
+
+nav ul ul li a:hover{
+    background-color: #666;
+}
+
+nav ul ul ul{
+    position: absolute;
+    left: 100%;
+    top: 0;
+}
+
+label{
+	color: #696969;
+	padding-left: 18px;
+}
+
+.container{
+	background-color: white;
+	width: auto;
+	height: auto;
+}
+
+.header{
+	background-color: white;
+	padding: 1px 10px;
+}
+
+.menu{
+	background-color: white;
+	width: 30%;
+}
+
+.lgg{
+	width: 40%;
+}
+
+.mn{
+	padding-top: 18px;
+	padding-right: 50px;
+	background-color: #DCDCDC;
+}
+
+.badan{
+	height: 450px;
+	background-image: url(anyar.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.border{
+	background-color: white;
+	width: 600px;
+	height: 300px;
+	border-radius: 10px;
+    margin-top: 40px;
+}
